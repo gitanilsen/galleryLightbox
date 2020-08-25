@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Gallery LightBox</title>
+  </head>
+  <body onload="loading()">
+    <!-- Pre loader -->
+    <div class="preloader">
+      <h1>Loading...</h1>
+    </div>
+    <!-- Light box  -->
+    <div class="light-box">
+      <span id="close-btn">&#x274C;</span>
+      <img alt="img" style="width: 100%;" class="light-img" />
+    </div>
+    <!-- Header -->
+    <header>
+      <h1>Slider with Light Box</h1>
+      <p>Click on the Image to see the in full screen.</p>
+    </header>
+    <!-- Gallery -->
+    <div class="gallery-box">
+      <img
+        src="https://source.unsplash.com/800x600/?nature"
+        alt="Image"
+        id="image1"
+        onclick="zoom(0)"
+        class="image"
+      />
+      <img
+        src="https://source.unsplash.com/800x601/?nature"
+        alt="Image"
+        id="image2"
+        onclick="zoom(1)"
+        class="image"
+      />
+      <img
+        src="https://source.unsplash.com/800x602/?nature"
+        alt="Image"
+        id="image3"
+        onclick="zoom(2)"
+        class="image"
+      />
+      <img
+        src="https://source.unsplash.com/800x603/?nature"
+        alt="Image"
+        id="image4"
+        onclick="zoom(3)"
+        class="image"
+      />
+      <img
+        src="https://source.unsplash.com/800x604/?nature"
+        alt="Image"
+        id="image5"
+        onclick="zoom(4)"
+        class="image"
+      />
+      <img
+        src="https://source.unsplash.com/800x605/?nature"
+        alt="Image"
+        id="image6"
+        onclick="zoom(5)"
+        class="image"
+      />
+      <img
+        src="https://source.unsplash.com/800x606/?nature"
+        alt="Image"
+        id="image7"
+        onclick="zoom(6)"
+        class="image"
+      />
+      <img
+        src="https://source.unsplash.com/800x607/?nature"
+        alt="Image"
+        id="image8"
+        onclick="zoom(7)"
+        class="image"
+      />
+    </div>
+    <!-- JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
